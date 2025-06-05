@@ -88,3 +88,7 @@ You can also test the API directly in your browser using the built-in documentat
 
 - **Swagger UI**: http://localhost:8000/docs
 - **ReDoc**: http://localhost:8000/redoc
+
+### Examples
+
+A few example prompts and their corresponding responses are provided in the `examples/` folder, stored in the `responses.json` file.
