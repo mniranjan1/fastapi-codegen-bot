@@ -1,18 +1,23 @@
 # fastapi-codegen-bot
-A FastAPI-based Backend for Python Code Generation
+A FastAPI-based Backend for Python Code Generation that responds to natural language
+prompts and returns corresponding Python code snippets.
+
+# Project Setup
+## 1. Clone the repository
+```bash
+git clone https://github.com/mniranjan1/fastapi-codegen-bot.git
+cd fastapi-codegen-bot
+```
+## 2. Set the environmental variables:
+Copy the `.env.example` file to `.env` and update it with the necessary values.
 
 ## Running Locally
+### 1. Install Required Dependencies: Python, uv
 - Python 3.8+
 - uv 
     ```bash
     curl -Ls https://astral.sh/uv/install.sh | sh
     ````
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-```
 ### 2. Create and activate a virtual environment
 ```bash
 uv venv .venv
