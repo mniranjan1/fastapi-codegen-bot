@@ -42,7 +42,7 @@ docker build -t codegen-bot .
 ```
 ### 2. Run the container
 ```bash
-docker run -d codegen-bot
+docker run -p 8000:8000 -d codegen-bot
 ```
 ### 3. Open in browser
 - App: http://localhost:8000
