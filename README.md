@@ -82,13 +82,29 @@ curl -X POST http://localhost:8000/generate \
   -d '{"prompt": "create a python program for sum of 2 numbers"}'
 ```
 
-### Interactive Documentation
+## Interactive Documentation
 
 You can also test the API directly in your browser using the built-in documentation:
 
 - **Swagger UI**: http://localhost:8000/docs
 - **ReDoc**: http://localhost:8000/redoc
 
-### Examples
+## Examples
 
 A few example prompts and their corresponding responses are provided in the `examples/` folder, stored in the `responses.json` file.
+
+## Libraries Used
+
+- FastAPI – For building the API
+
+- Uvicorn – ASGI server for serving FastAPI
+
+- Pydantic – Data validation and settings management
+
+- OpenAI – For interacting with OpenAI’s API
+
+- python-dotenv – For loading environment variables from .env
+
+- uv – Fast Python package manager
+
+
